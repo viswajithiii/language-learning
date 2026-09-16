@@ -1,0 +1,14 @@
+# Ignore everything by default (only files needed for rendering are published)
+/*
+
+# Whitelist files needed for repository configuration and web rendering
+!/.gitignore
+!/docs/
+!/docs/**
+
+# OS & Editor temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
